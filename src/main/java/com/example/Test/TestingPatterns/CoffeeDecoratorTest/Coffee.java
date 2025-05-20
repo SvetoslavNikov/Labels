@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns.CoffeeDecoratorTest;
+package com.example.Test.TestingPatterns.CoffeeDecoratorTest;
 
 //Exploring the decorator pattern
 //that's just a simple example

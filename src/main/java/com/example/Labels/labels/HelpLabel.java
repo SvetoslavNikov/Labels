@@ -1,9 +1,8 @@
 package com.example.Labels.labels;
 
 //TODO: So here idk if i should implement the Label interface.
-// (canonical bridge pattern)
-// Otherwise i do ddecorator i think.
-public class HelpLabel{
+// (canonical bridge pattern does not)
+public class HelpLabel implements Label{
     private Label label;
     private String helpText;
 

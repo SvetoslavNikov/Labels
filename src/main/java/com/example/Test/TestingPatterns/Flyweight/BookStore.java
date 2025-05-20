@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns.Flyweight;
+package com.example.Test.TestingPatterns.Flyweight;
 
 import java.util.ArrayList;
 import java.util.List;

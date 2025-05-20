@@ -2,17 +2,51 @@ package com.example.Labels.labels;
 
 import java.awt.*;
 
-public class RichLabel implements Label{
+public class RichLabel implements Label {
     private String value;
     private Color color;
     private int size;
     private String font;
+
+    public RichLabel(String value, String font, int size, Color color) {
+        if (value == null) {
+            throw new IllegalArgumentException("Value cannot be null");
+        }
+        this.value = value;
+        this.font = font != null ? font : "Arial";
+        this.size = size > 0 ? size : 12;
+        this.color = color != null ? color : Color.BLACK;
+    }
+
     @Override
     public String getText() {
         return value;
     }
-}
 
+    public Color getColor() {
+        return color;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public String getFont() {
+        return font;
+    }
+
+    public void setColor(Color color) {
+        this.color = color != null ? color : Color.BLACK;
+    }
+
+    public void setSize(int size) {
+        this.size = size > 0 ? size : this.size;
+    }
+
+    public void setFont(String font) {
+        this.font = font != null ? font : this.font;
+    }
+}
 
 ///version with flyweight
 
@@ -31,6 +65,7 @@ public class RichLabel implements Label{
 //    private Color color;
 //
 //    public TextStyle(int size, String font, Color color) {
+//        Null checks to be added
 //        this.size = size;
 //        this.font = font;
 //        this.color = color;

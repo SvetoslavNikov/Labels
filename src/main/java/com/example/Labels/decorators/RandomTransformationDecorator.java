@@ -35,4 +35,23 @@ public class RandomTransformationDecorator extends LabelDecoratorBase{
 //        textTransformations.remove(idx);
 //        return result;
 //    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof RandomTransformationDecorator)) return false;
+        if (!super.equals(o)) return false;
+
+        RandomTransformationDecorator that = (RandomTransformationDecorator) o;
+        return textTransformations.equals(that.textTransformations);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = super.hashCode();
+        result = 31 * result + textTransformations.hashCode();
+        return result;
+    }
+
 }

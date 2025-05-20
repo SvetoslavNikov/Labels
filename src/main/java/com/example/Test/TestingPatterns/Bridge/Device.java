@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns.Bridge;
+package com.example.Test.TestingPatterns.Bridge;
 /*
 You are designing a remote control system for different devices: TV, Radio, etc.
 Devices (TV, Radio...) have common functionality (turn on/off, set volume).

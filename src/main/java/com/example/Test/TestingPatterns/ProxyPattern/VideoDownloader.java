@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns.ProxyPattern;
+package com.example.Test.TestingPatterns.ProxyPattern;
 
 import java.util.HashMap;
 import java.util.Map;

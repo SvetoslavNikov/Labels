@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns.Reflection;
+package com.example.Test.TestingPatterns.Reflection;
 
 public class ReflectionExercise4 {
     public static void main(String[] args) {

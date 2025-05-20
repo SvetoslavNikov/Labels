@@ -13,7 +13,7 @@ public class CensorTransformation implements TextTransformation{
     @Override
     public String transform(String text) {
         validateInput(text);
-        //This regex works like this:
+        //this regex works like this:
         //(?i) makes the regex case-insensitive.
         //Pattern.quote(target) escapes special characters in the target
         return text.replaceAll("(?i)\\b" + Pattern.quote(target), "*".repeat(target.length()));

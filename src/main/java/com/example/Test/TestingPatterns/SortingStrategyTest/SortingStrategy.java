@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns.SortingStrategyTest;
+package com.example.Test.TestingPatterns.SortingStrategyTest;
 
 class SortingContext {
     private SortingStrategy sortingStrategy;

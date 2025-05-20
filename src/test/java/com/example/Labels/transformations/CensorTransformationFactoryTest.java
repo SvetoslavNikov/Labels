@@ -44,17 +44,3 @@ class CensorTransformationFactoryTest{
         assertThrows(IllegalArgumentException.class, () -> { ctfactory.createCensorTransformation("");});
     }
 }
-/*
-empty String
-null Input
-
-create a tt with 4 letters and less then 4 letters
-create again
-check if its not new instance
-
-create tt with more then 4 letters
-create again
-check if its anew instance
-
-
- */

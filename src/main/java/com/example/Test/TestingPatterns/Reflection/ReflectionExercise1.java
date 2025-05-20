@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns.Reflection;
+package com.example.Test.TestingPatterns.Reflection;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

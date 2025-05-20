@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns.ProxyPattern;
+package com.example.Test.TestingPatterns.ProxyPattern;
 
 import java.util.ArrayList;
 import java.util.List;

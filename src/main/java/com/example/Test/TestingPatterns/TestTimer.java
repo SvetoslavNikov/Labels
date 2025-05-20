@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns;
+package com.example.Test.TestingPatterns;
 
 import java.io.IOException;
 import java.util.Scanner;

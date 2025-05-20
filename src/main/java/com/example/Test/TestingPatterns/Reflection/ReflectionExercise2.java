@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns.Reflection;
+package com.example.Test.TestingPatterns.Reflection;
 
 class Animal{}
 class Dog extends Animal{}

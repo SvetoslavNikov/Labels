@@ -1,0 +1,17 @@
+Is CompositeTransformation Implemented right?
+
+Is there a point in using Flyweight in RichLabel?
+Color obj in java doesn't have automatic pooling like String do.
+
+Should HelpLabel implement the Label interface?
+(canonical bridge pattern does not)
+Otherwise I do decorator?
+
+
+Dependency Injection instructions unclear. In the dependency injection folder:
+I have implemented:
+- LabelConfiguration violating Single Responsibility and Open/Closed.
+- Registry idea that I can explain in a call?
+
+
+

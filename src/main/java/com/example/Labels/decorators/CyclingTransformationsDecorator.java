@@ -6,7 +6,6 @@ import com.example.Labels.transformations.TextTransformation;
 
 import java.util.List;
 
-//TODO: Should decorators stack or just cycle?
 public class CyclingTransformationsDecorator extends LabelDecoratorBase{
     private Label label;
     private List<TextTransformation> textTransformations;
@@ -28,4 +27,22 @@ public class CyclingTransformationsDecorator extends LabelDecoratorBase{
         nextTransformationID ++;
         return result;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof CyclingTransformationsDecorator)) return false;
+        if (!super.equals(o)) return false;
+
+        CyclingTransformationsDecorator that = (CyclingTransformationsDecorator) o;
+        return textTransformations.equals(that.textTransformations);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = super.hashCode();
+        result = 31 * result + textTransformations.hashCode();
+        return result;
+    }
+
 }

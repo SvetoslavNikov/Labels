@@ -1,4 +1,4 @@
-package com.example.Labels.TestingPatterns.ChainOfResponsibility;
+package com.example.Test.TestingPatterns.ChainOfResponsibility;
 
 import java.util.HashMap;
 import java.util.Map;

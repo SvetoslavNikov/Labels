@@ -14,7 +14,9 @@ public abstract class LabelDecoratorBase implements Label {
         return label.getText();
     }
 
-    //here i tried a little diff implementation then the example?
+    //here I tried a little diff implementation then the example
+
+    //delete decorator by type
     public static Label removeDecorator(Label label, Class<? extends LabelDecoratorBase> decoratorType) {
 
         //base case
@@ -37,7 +39,7 @@ public abstract class LabelDecoratorBase implements Label {
         return label;
     }
 
-    //TODO: define equals for each decorator
+    //delete decorator by equals()
     public static Label removeDecoratorInstance(Label label, LabelDecoratorBase targetDecorator) {
 
         //base case
